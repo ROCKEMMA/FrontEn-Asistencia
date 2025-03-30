@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2C3E50;
+    color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para el logo y el nombre de la aplicación */
+.logo-container {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.logo-container h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+/* Estilo para la parte derecha del header (Imagen de usuario y nombre) */
+.user-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.user-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-right: 10px;
+}
+
+.user-container span {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Estilo del menú (si decides agregarlo en el futuro) */
+.menu-btn {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.menu-btn:hover {
+    color: #3498db;
+}
